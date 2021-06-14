@@ -85,7 +85,9 @@ label{
     padding: 1em;
     padding-top: 5em;
     padding-bottom: 5em;
-    width: 100vw;
+}
+footer h5{
+    text-align: center;
 }
 /*  Margin vs padding
     -margin is the space between the element and the outside of it
