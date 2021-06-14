@@ -80,11 +80,13 @@ label, input{
 label{
     padding-right: 10px;
 }
-#footer-style{
+footer{
     background-color: rgb(165, 248, 248);
     padding: 1em;
     padding-top: 5em;
     padding-bottom: 5em;
+    width: 100vw;
+    
 }
 footer h5{
     text-align: center;
