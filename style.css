@@ -66,6 +66,7 @@ header h1{
     background-color: azure;
     padding: 1em;
     padding-top: 5em;
+    padding-bottom: 5em;
 }
 form.form-example{
     display: table;
@@ -80,11 +81,9 @@ label, input{
 label{
     padding-right: 10px;
 }
-footer{
+.footer-style{
     background-color: rgb(165, 248, 248);
-    padding: 1em;
-    padding-top: 5em;
-    padding-bottom: 5em;
+    padding: 3em;
     
 }
 footer h5{
