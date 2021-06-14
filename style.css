@@ -1,0 +1,99 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #5d6d7e;
+  /*margin: 5em;/*em reference value of css relative to font size of the element
+    if font size is 10px then 5em is 5 x 10 px*/
+    width: 100vw;
+    position: fixed;
+    box-shadow: 2px 2px 2px #8f8f8f;
+    
+}
+nav li{
+    display: inline-flex;
+    padding: 1em;
+}
+.nav-links{
+    text-decoration: none;
+    color: rgb(165, 248, 248);
+}
+.nav-links:hover{
+    color: rgb(4, 179, 179);
+}
+
+header h1{
+    padding-top: 50px;
+    font-size: 220px;
+    background-color: rgb(165, 247, 247);
+}
+#html{
+    background-color: rgb(6, 131, 131);
+    padding: 1em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+
+}
+#html-5-picture{
+    float: right;
+}
+#css{
+    background-color: rgb(165, 248, 248);
+    padding: 1em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+#css-picture{
+    float: right;
+    height: 10em;
+    width: 10em;
+}
+.css-paragraph{
+    display: flex;
+    align-items: center;
+}
+
+.paragraph{
+    justify-content: flex-start;
+
+}
+
+#contact-form{
+    background-color: azure;
+    padding: 1em;
+    padding-top: 5em;
+}
+form.form-example{
+    display: table;
+}
+div.form-example{
+    display: table-row;
+}
+label, input{
+    display: table-cell;
+    margin-bottom: 10px;
+}
+label{
+    padding-right: 10px;
+}
+#footer-style{
+    background-color: rgb(165, 248, 248);
+    padding: 1em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    width: 100vw;
+}
+/*  Margin vs padding
+    -margin is the space between the element and the outside of it
+    -padding is the space between the element and the contents nested.
+*/
+
+/*
+selector { declaration
+    properties: values;
+}
+*/
